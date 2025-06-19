@@ -1,0 +1,177 @@
+{
+  // === APARÊNCIA E TEMA ===
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "symbols",
+  "window.zoomLevel": 0.5,
+
+  // === FONTE ===
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 13,
+
+  // === INTERFACE MINIMALISTA ===
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "explorer.decorations.badges": true,
+  "explorer.decorations.colors": true,
+
+  // === EDITOR - VISUAL CLEAN ===
+
+  "editor.lineNumbers": "on",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "editor.wordWrap": "on",
+  "editor.wrappingIndent": "indent",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+
+  // === INDENTAÇÃO E FORMATAÇÃO ===
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.formatOnPaste": true,
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // === BRACKET COLORIZATION ===
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+
+  // === TERMINAL INTEGRADO ===
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
+  "terminal.integrated.tabs.enabled": true,
+  // === AUTOCOMPLETE E SUGESTÕES ===
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.tabCompletion": "on",
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+
+  // === ARQUIVOS E BUSCA ===
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true
+  },
+
+  // === GIT E CONTROLE DE VERSÃO ===
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "scm.diffDecorations": "gutter",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+
+  // === EXTENSÕES ESPECÍFICAS ===
+  "material-icon-theme.folders.associations": {
+    "components": "component",
+    "utils": "tools",
+    "helpers": "helper",
+    "services": "connection",
+    "hooks": "custom",
+    "contexts": "context",
+    "types": "typescript"
+  },
+
+  // === EMMET E HTML ===
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  // === PERFORMANCE ===
+  "extensions.ignoreRecommendations": true,
+  "telemetry.telemetryLevel": "off",
+  "update.showReleaseNotes": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+
+  // === CODEIUM (IA) CONFIGURAÇÃO ===
+  "codeium.enableCodeLens": false,
+  "codeium.enableSearch": true,
+  "codeium.enableConfig": {
+    "*": true,
+    "plaintext": false
+  },
+
+  // === CONFIGURAÇÕES POR LINGUAGEM ===
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "editor.linkedEditing": true,
+  "html-css-class-completion.CSSLanguages": [
+
+    "css",
+    "sass",
+    "scss"
+  ],
+  "html-css-class-completion.enableEmmetSupport": true,
+  "editor.largeFileOptimizations": false,
+  "explorer.confirmPasteNative": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cSpell.userWords": [
+    "contabilistica"
+  ],
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  }
+}
